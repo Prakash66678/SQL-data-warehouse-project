@@ -128,11 +128,11 @@ BEGIN
 
         PRINT '>> Truncating Table: bronze.erp_cust_a212';
 
-        TRUNCATE TABLE bronze.erp_cust_a212;
+                TRUNCATE TABLE bronze.erp_cust_az12;
 
-        PRINT '>> Inserting Data Into: bronze.erp_cust_a212';
+        PRINT '>> Inserting Data Into: bronze.erp_cust_az12';
 
-        BULK INSERT bronze.erp_cust_a212
+        BULK INSERT bronze.erp_cust_az12
         FROM 'C:\Users\Gnana prakash\OneDrive\Desktop\DSQLData\source_erp\cust_az12.csv'
         WITH (
             FIRSTROW = 2,
