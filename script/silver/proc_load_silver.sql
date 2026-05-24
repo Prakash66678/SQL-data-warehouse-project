@@ -66,10 +66,10 @@ TRIM(cst_firstname) AS cst_firstname,
 TRIM(cst_lastname) AS cst_lastname,
 
 CASE
-WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single'
-WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
+WHEN UPPER(TRIM(cst_marital_status)) = 'S' THEN 'Single'
+WHEN UPPER(TRIM(cst_marital_status)) = 'M' THEN 'Married'
 ELSE 'n/a'
-END AS cst_material_status,
+END AS cst_marital_status,
 
 CASE
 WHEN UPPER(TRIM(cst_gndr)) IN ('F', 'FEMALE') THEN 'Female'
