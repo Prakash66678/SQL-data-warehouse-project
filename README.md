@@ -39,7 +39,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## #* About Me
 
-Hi there! I'm ** Baraa Khatib Salkini **
+Hi there! I'm ** gnana prakash**
 enjoyable and engaging!
 
-also known as ** Data With Baraa **. I'm an IT professional and passionate YouTuber on a mission to share knowle
+I'm an IT professional and passionate on data projects
